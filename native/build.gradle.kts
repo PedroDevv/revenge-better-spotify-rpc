@@ -51,7 +51,6 @@ android {
     sourceSets {
         named("main") {
             resources {
-                srcDir()
                 srcDir(configurations["jsConfiguration"])
             }
         }
